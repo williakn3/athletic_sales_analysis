@@ -17,28 +17,30 @@ class Car:
         """Sets the make of the car"""
         self.make = new_make
 
+    # Create the get_model method
+    def get_model(self):
+        """Gets the model of the car"""
+        return self.model
+
     # Create a method to set the model of the car
     def set_model(self, new_model):
         """Sets the make of the car"""
         self.make = new_model
-
-    # Create the get_model method
-    def get_model(self, model):
-        """Gets the model of the car"""
-        return self.model
-
-
-
+        
 # Create an instance of the Car class.
-my_car = Car("Toyota")
+my_car = Car("Toyota", "Corolla")
 
 # Get the initial  make of the car.
 initial_make = my_car.get_make()
+initial_model = my_car.get_model()
 print(f"Initial Make: {initial_make}")
+print(f"Initial Model: {initial_model}")
 
 # Set a new make
 my_car.set_make("Honda")
 
 # Get the updated make
 updated_make = my_car.get_make()
+initial_model = my_car.get_model()
 print(f"Updated Make: {updated_make}")
+print(f"Initial Model: {initial_model}")
