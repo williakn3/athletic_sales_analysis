@@ -44,7 +44,24 @@ class Car:
     # Create three setter methods to change three parameters of the `Car` class.
     # YOUR SETTER METHODS GO HERE
 
+<<<<<<< HEAD
 
+=======
+    # Create a method to get the engine of the car
+    def set_engine(self, new_engine):
+        """Returns the engine of the car"""
+        self.engine = new_engine
+
+    # Create a method to get the year of the car
+    def set_year(self, new_year):
+        """Returns the year of the car"""
+        self.year = new_year
+
+    # Create a method to get the color of the car
+    def set_color(self, new_color):
+        """Returns the color of the car"""
+        self.color = new_color
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
 
 
 # Create an instance of the Car class
@@ -65,7 +82,17 @@ print(f"Color: {car.get_color()}")
 
 
 # Pass the updated car information from the user to the setter method you created above.
+<<<<<<< HEAD
 
+=======
+engine = input("Choose new engine")
+year = input("Choose new year")
+color = input("Choose new color")
+
+car.set_engine(engine)
+car.set_year(year)
+car.set_color(color)
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
 
 # Print the updated information of the car.
 print('Here are the updated details of the car.')

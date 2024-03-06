@@ -23,9 +23,11 @@ distance = float(input("What is the radius distance you're willing to walk "
                        + "from your hotel (in meters)? "))
 
 # Calculate the budget remaining after flights and accommodation
-
+budget_remaining = budget - flights_accommodation
+print("budget remaining after flights and commodation", + str(budget_remaining))
 # Calculate the remaining budget in local currency amount
-
+budget_remaining_local = budget_remaining * exchange_rate
+print "budget remining in local currency", str(budget_local_currency) 
 # Calculate the budget per day in the local currency
 
 # Calculate the budget per day in the local currency, ignoring cents

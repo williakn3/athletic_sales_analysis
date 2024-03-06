@@ -2,7 +2,13 @@
 
 # Code using for loop.
 numbers = [1, 2, 3, 4, 5]
+<<<<<<< HEAD
 squared_numbers = []
+=======
+
+squared_numbers = []
+
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
 for num in numbers:
     squared_numbers.append(num ** 2)
 

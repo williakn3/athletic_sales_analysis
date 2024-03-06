@@ -1,6 +1,10 @@
 """ Calculating the cost of a new car"""
 
+<<<<<<< HEAD
 def calculate_future_value():
+=======
+def calculate_future_value(current_loan_value, annual_interest_rate, months_remaining):
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
     """
     Create a function called calculate_future_value
     Args:
@@ -8,6 +12,7 @@ def calculate_future_value():
         the annual_interest_rate (float): The APR
         the months_remaining (int): The number of months remaining on the loan
 
+<<<<<<< HEAD
 
     calculate_future_value
     Returns:
@@ -17,6 +22,17 @@ def calculate_future_value():
     # Print the future value of the car to 2 decimal places and thousandths.
     
         
+=======
+    Returns:
+        Prints the future value of the loan as a float.
+    """
+    future_value = current_loan_value * (1  + (annual_interest_rate / 12)) ** months_remaining
+
+    # Print the future value of the car to 2 decimal places and thousandths.
+    print(f'The future value of the new car is ${round(future_value, 2)}.')
+
+
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
 
 if __name__ == "__main__":
     # The new_car_loan dictionary.
@@ -26,6 +42,17 @@ if __name__ == "__main__":
         "annual_interest_rate": 0.085
         }
 
+<<<<<<< HEAD
     # Set the function call equal to a variable called calculate new value.
     # Pass the relevant information from the dictionary as arguments to the function.
     calculate_future_value()
+=======
+    # Set the function call equal to a variable called cost_of_new_car.
+    # Pass the relevant information from the dictionary as arguments to the function.
+    calculate_future_value(
+        new_car_loan["current_loan_value"],
+        new_car_loan["annual_interest_rate"],
+        new_car_loan["months_remaining"]
+    )
+
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700

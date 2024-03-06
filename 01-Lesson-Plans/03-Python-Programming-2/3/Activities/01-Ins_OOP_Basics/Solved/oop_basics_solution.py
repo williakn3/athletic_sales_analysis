@@ -7,7 +7,10 @@ class Car:
         self.make = make
         self.model = model
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e9bf0776dd9a5784f4249f28b06a95e85d026700
 # Create an instance of the Car class using the user's input
 my_car = Car("Toyota", "Camry")
 
