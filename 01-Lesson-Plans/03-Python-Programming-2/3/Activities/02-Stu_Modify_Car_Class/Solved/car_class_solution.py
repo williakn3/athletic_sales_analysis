@@ -12,12 +12,12 @@ class Car:
         self.color = color
 
 # Prompt the user to enter the information for the car for each parameter.
-make = input("Enter the make of the car: ")
-model = input("Enter the model of the car: ")
-body = input("Enter the body type for the car: ")
-engine = input("Enter the engine type for the car: ")
-year = int(input("Enter the year the car was made: "))
-color = input("Enter the color of the car: ")
+make = input("Audi:")
+model = input("A4: ")
+body = input("Coupe: ")
+engine = input("V8: ")
+year = int(input("2024: "))
+color = input("METALLIC RED: ")
 
 # Create an instance of the `Car` class and pass in the variables from the user.
 car = Car(make, model, body, engine, year, color)
